@@ -1,3 +1,7 @@
 <h1>
   {{title}}
 </h1>
+
+<div class="gameboard">
+  <tile *ngFor="let t of tilesToDraw" [tile]="t"></tile>
+</div>

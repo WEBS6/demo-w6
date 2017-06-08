@@ -1,0 +1,7 @@
+.gameboard{
+    padding:10px;
+    position:relative;
+    border:1px solid black;
+    height:500px;
+    width:500px;
+}
